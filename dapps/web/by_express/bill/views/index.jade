@@ -1,0 +1,51 @@
+extends layout
+
+block content
+  h1= title
+
+  h2 Details
+  input(type='text' id='iName' placeholder='Enter a name.')
+  br
+  input(type='text' id='iBillId' placeholder='The bill ID.')
+  br
+  input(type='text' id='iOwner' placeholder='The owner.')
+  br
+  input(type='text' id='iDeposit' placeholder='The deposit.')
+  br
+  input(type='text' id='iBalance' placeholder='The balance.')
+  br
+  br
+
+  h3 accountA : New bill
+  p Enter a name and create a bill.
+  button(type='button' id='iCreateBill') Create Bill *
+  br
+  p Show the ID of the bill. Never forget the ID.
+  button(type='button' id='iGetId') Show ID
+  br
+  br
+
+  h3 accountB : Transfer bill
+  p Enter the ID of the bill and show the bill detail. Buy it.
+  button(type='button' id='iShowBillDetail') Show detail
+  br
+  button(type='button' id='iBuyBill') Buy Bill *
+  br
+  br
+
+  h3 accountA : Sold bill
+  p Show the balance and withdraw it.
+  button(type='button' id='iShowBalance') Show balance
+  br
+  button(type='button' id='iWithdraw') Withdraw *
+  br
+  br
+
+  hr
+  p The dapp Bill allows you to financial service on the ethereum blockchain.
+
+  script(type='text/javascript',src='https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.34/dist/web3.min.js')
+  script(type='text/javascript',src='https://cdn.jsdelivr.net/npm/loom-js@1.15.0/dist/loom.umd.js')
+  script(type='text/javascript',src='/javascripts/abiJson_bill.js')
+  script(type='text/javascript',src='/javascripts/accessor.js')
+  script(type='text/javascript',src='/javascripts/run_bill.js')
