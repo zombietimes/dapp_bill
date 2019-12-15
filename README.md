@@ -15,10 +15,10 @@ It allows accessing through Express server(application server).
 
 ### The accountA view
 Select ganche1 address.  
-Create new bill.
+Create new bill.  
 ![dapp_bill_0000](https://user-images.githubusercontent.com/50263232/70856542-1af78680-1f22-11ea-8ad7-c82528878e85.png)  
 ![dapp_bill_0001](https://user-images.githubusercontent.com/50263232/70856553-4e3a1580-1f22-11ea-9888-b50d59ef55e8.png)  
-
+  
 And then, show the bill ID.  
 Copy it!  
 ![dapp_bill_0002](https://user-images.githubusercontent.com/50263232/70856561-601bb880-1f22-11ea-8914-b3864d4f9aee.png)  
@@ -30,7 +30,7 @@ Show the detail of the bill.
 ![dapp_bill_0003](https://user-images.githubusercontent.com/50263232/70856567-7590e280-1f22-11ea-9562-acee045da20e.png)  
 ![dapp_bill_0004](https://user-images.githubusercontent.com/50263232/70856571-85a8c200-1f22-11ea-8329-3e0009190ad5.png)  
 ![dapp_bill_0005](https://user-images.githubusercontent.com/50263232/70856575-98bb9200-1f22-11ea-91af-dbe7ff055218.png)  
-
+  
 And then, buy the bill.  
 ![dapp_bill_0006](https://user-images.githubusercontent.com/50263232/70856578-a7a24480-1f22-11ea-9ca9-8d756878925a.png)  
 
@@ -104,7 +104,7 @@ Run the express project.
 
 ```sh
 # Ubuntu commands.
-cd ~/dapps/web/by_express/trade
+cd ~/dapps/web/by_express/bill
 node ./bin/www
 ```
 ```sh
